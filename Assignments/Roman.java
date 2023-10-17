@@ -3,6 +3,7 @@ import java.util.*;
 public class Roman {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter a Input");
 		String s=sc.nextLine();
 		int ans=romanToInt(s);
 		System.out.print(ans);
